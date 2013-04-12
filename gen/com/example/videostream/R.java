@@ -24,6 +24,7 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
+<<<<<<< HEAD
         public static final int action_settings=0x7f080006;
         public static final int address=0x7f080000;
         public static final int imageView1=0x7f080005;
@@ -31,6 +32,14 @@ public final class R {
         public static final int play=0x7f080003;
         public static final int setup=0x7f080001;
         public static final int teardown=0x7f080002;
+=======
+        public static final int action_settings=0x7f080005;
+        public static final int button1=0x7f080003;
+        public static final int button2=0x7f080001;
+        public static final int button3=0x7f080004;
+        public static final int button5=0x7f080002;
+        public static final int editText1=0x7f080000;
+>>>>>>> 4110aff524fd82ec2ea99e00d5804793dfeeb184
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

@@ -1,5 +1,6 @@
 package com.example.videostream;
 
+<<<<<<< HEAD
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -49,6 +50,21 @@ public class MainActivity extends Activity {
         Log.d("Startup", "Finished");
     }
 
+=======
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+
+>>>>>>> 4110aff524fd82ec2ea99e00d5804793dfeeb184
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -56,6 +72,7 @@ public class MainActivity extends Activity {
         return true;
     }
     
+<<<<<<< HEAD
     public void setup() {
     	Log.d("Startup", "Application Loading");
         client = new ClientController();
@@ -81,4 +98,6 @@ public class MainActivity extends Activity {
     	Log.d("Startup", "Client setup complete");
     }
     
+=======
+>>>>>>> 4110aff524fd82ec2ea99e00d5804793dfeeb184
 }
